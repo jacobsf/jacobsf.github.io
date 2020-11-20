@@ -1,3 +1,1 @@
-<script>
-  alert("This is myFunction.");
-</script>
+alert("This is myFunction.");
