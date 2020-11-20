@@ -1,7 +1,6 @@
-// This is a test by Fred.
-// Now I am adding a second line.
-
-
-    <p>Getting started with Firebase</p>
-    <h1 id="bigOne">Wakanda Forever</h1>
-
+<body onload="myFunction()">
+<script>
+function myFunction() {
+  alert("This is myFunction.");
+}
+</script>
