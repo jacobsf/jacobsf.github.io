@@ -1,1 +1,1 @@
-alert("This is myFunction.");
+alert("Holy fuck, it works!!");
