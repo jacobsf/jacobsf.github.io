@@ -1,6 +1,39 @@
-alert("header javascript / edited from Webstorm");
+alert("header javascript / edited from Webstorm / includes Firebase inits");
 
 
+// added by Fred. Initialize Firebase.
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+$.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js", function() {
+    alert("Script loaded but not necessarily executed.");
+});
+
+// <!-- TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries -->
+$.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js", function() {
+    alert("Script loaded but not necessarily executed.");
+});
+
+$.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", function() {
+    alert("Script loaded but not necessarily executed.");
+});
+
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+    apiKey: "AIzaSyA4x6htT7vOI6Z9aSTzY0-fIzqnqZLljpk",
+    authDomain: "hello-world-test-by-fred.firebaseapp.com",
+    databaseURL: "https://hello-world-test-by-fred.firebaseio.com",
+    projectId: "hello-world-test-by-fred",
+    storageBucket: "hello-world-test-by-fred.appspot.com",
+    messagingSenderId: "55052545917",
+    appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
+    measurementId: "G-QW9SSLTXSP"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
 
 
 
