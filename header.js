@@ -1,6 +1,5 @@
 alert("header javascript / edited from Webstorm");
 
-<script>
     function includeHTML() {
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
@@ -28,4 +27,4 @@ alert("header javascript / edited from Webstorm");
 }
 }
 }
-</script>
+
