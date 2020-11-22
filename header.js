@@ -3,7 +3,8 @@ alert("header javascript / edited from Webstorm");
 // added by Fred. A script to include HTML. Source is W3 Schools.
 
     function includeHTML() {
-    var z, i, elmnt, file, xhttp;
+    // noinspection ES6ConvertVarToLetConst
+        var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
     z = document.getElementsByTagName("*");
     for (i = 0; i < z.length; i++) {
@@ -15,7 +16,8 @@ alert("header javascript / edited from Webstorm");
     xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
     if (this.readyState == 4) {
-    if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+    if (this.status == 200) {// noinspection JSReferencingMutableVariableFromClosure
+        elmnt.innerHTML = this.responseText;}
     if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
     /* Remove the attribute, and call this function once more: */
     elmnt.removeAttribute("w3-include-html");
@@ -35,8 +37,8 @@ alert("header javascript / edited from Webstorm");
 // Code that Fred found on StackExchange for changing images./*
 
 
-
-    $(function() {
+    // noinspection JSUnresolvedFunction
+$(function() {
     const pictures = [
 //1
     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Number_1_in_green_rounded_square.svg/512px-Number_1_in_green_rounded_square.svg.png",
@@ -69,7 +71,8 @@ alert("header javascript / edited from Webstorm");
 
     // Pass the array to shuffle function get result
 
-    var url = shuffle(array);
+    // noinspection UnnecessaryLocalVariableJS
+        var url = shuffle(array);
 
     /* Asign the result to src attribute of img
     || Note: the bracket notation [0]
