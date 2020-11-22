@@ -37,6 +37,13 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
 
 
 
+// Added by Fred  THE FIREBASE ACTION CODE Added by Fred
+// getting the text value from the database
+
+    var bigOne = document.getElementById('bigOne');
+    var dbRef = firebase.database().ref().child('text');
+    dbRef.on('value', snap => bigOne.innerText = snap.val());
+
 
 
 
