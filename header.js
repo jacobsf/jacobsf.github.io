@@ -35,13 +35,6 @@ alert("header javascript / edited from Webstorm");
 // Code that Fred found on StackExchange for changing images./*
 
 
-/*
-    function SetTimer()
-    {
-        alert("This is SetTimer Function.");
-        var x = changeImg(pictures);
-    }
-*/
 
     $(function() {
     const pictures = [
