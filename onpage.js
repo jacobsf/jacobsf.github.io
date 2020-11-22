@@ -1,4 +1,4 @@
-alert("onpage edited from WebStorm");
+alert("edited from WebStorm");
 
 
 
