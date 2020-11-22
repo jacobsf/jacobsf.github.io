@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="Added all the code in Webstorm, and fixed errors.">
+    <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/onpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/onpage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,7 +65,8 @@
       <workItem from="1605699880368" duration="359000" />
       <workItem from="1605809357354" duration="881000" />
       <workItem from="1605956755326" duration="4220000" />
-      <workItem from="1605966164957" duration="2064000" />
+      <workItem from="1605966164957" duration="2700000" />
+      <workItem from="1606039767958" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="Note from Webstorm">
       <created>1605957171738</created>
@@ -156,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606038836180</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added all the code in Webstorm, and fixed errors.">
+      <created>1606039015659</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606039015659</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,11 +191,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added all the code in Webstorm, and fixed errors." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606038851969">
+    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606039024317">
       <screen x="0" y="25" width="1024" height="743" />
     </state>
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/-725.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1195.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606027427042" />
-    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2/0.25.1024.743@0.25.1024.743" timestamp="1606038851969" />
+    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2/0.25.1024.743@0.25.1024.743" timestamp="1606039024317" />
     <state x="0" y="25" width="1024" height="743" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605957207100">
       <screen x="0" y="25" width="1024" height="743" />
     </state>

@@ -1,9 +1,6 @@
-alert("edited from WebStorm again");
+alert("edited from WebStorm again, script only.");
 
-<body>
-<p>Getting started with Firebase</p>
-<h1 id="bigOne">Wakanda Forever</h1>
-</body>
+
 
 
 
