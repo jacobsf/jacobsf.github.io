@@ -1,5 +1,7 @@
 alert("header javascript / edited from Webstorm");
 
+// added by Fred. A script to include HTML. Source is W3 Schools.
+
     function includeHTML() {
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
@@ -29,6 +31,8 @@ alert("header javascript / edited from Webstorm");
 }
 
 
+
+// Code that Fred found on StackExchange for changing images.
 
     function SetTimer()
     {
