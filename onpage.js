@@ -1,4 +1,4 @@
-alert("onpage => edited from WebStorm");
+alert("onpage edited from WebStorm");
 
 
 <p>Getting started with Firebase</p>
