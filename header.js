@@ -65,6 +65,7 @@ $(function() {
     // Callback function pass an array
 
 
+    // noinspection ES6ConvertVarToLetConst
     var j=0;
 
     function changeImg(array) {
@@ -81,7 +82,8 @@ $(function() {
     || Once a plain object, simple properties
     || such as .src may be used.
     */
-    $('.imageWrapper img')[0].src = url;
+    // noinspection JSUnresolvedFunction
+        $('.imageWrapper img')[0].src = url;
 
     // This is the equivelant in jQuery
     // $('.imageWrapper img').attr('src', url);
