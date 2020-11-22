@@ -1,5 +1,14 @@
 alert("header javascript / edited from Webstorm");
 
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+
+
 // added by Fred. A script to include HTML. Source is W3 Schools.
 
     function includeHTML() {
