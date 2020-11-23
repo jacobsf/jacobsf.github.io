@@ -169,6 +169,7 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
     alert("FIREBASE DATABASE: Script loaded but not necessarily executed.");
 });
 
+    alert("finiahed firebase loads");
 
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -182,11 +183,16 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
     appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
     measurementId: "G-QW9SSLTXSP"
     };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
 
-    alert("finiahed firebase initilization");
+    alert("finiahed creating firebase configuration object");
+
+
+/*
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+   firebase.analytics();
+*/
+
 
 
 
