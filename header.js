@@ -1,6 +1,111 @@
 alert("HEADER JAVASCRIPT: includes Firebase inits");
 
 
+    // Code that Fred found on StackExchange for changing images./*
+
+
+    // noinspection JSUnresolvedFunction
+    $(function() {
+    const pictures = [
+//1
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Number_1_in_green_rounded_square.svg/512px-Number_1_in_green_rounded_square.svg.png",
+//2
+    "https://images-na.ssl-images-amazon.com/images/I/814x6GWAgEL._AC_SL1500_.jpg",
+//3
+    "https://static.dazzling.news/img/articles/3187/800x800/5a589e3b0b4de_three-706895_960_720.jpg",
+    //4
+    "https://i1.wp.com/mysoulurgenumber.com/wp-content/uploads/2018/10/soul-urge-number-4.png?fit=1442%2C1442&ssl=1",
+    //5
+    "https://www.astrogle.com/images/2014/09/number-52.jpg",
+    //6
+    "https://www.pngfind.com/pngs/m/98-983768_numbers-png-number-6-clipart-png-transparent-png.png",
+    //7
+    "https://image.shutterstock.com/image-vector/vector-illustration-realistic-retro-signboard-260nw-277121081.jpg",
+    //8
+    "https://image.shutterstock.com/image-illustration/3d-shiny-red-number-collection-260nw-120044464.jpg",
+    //9
+    "https://www.pngitem.com/pimgs/m/520-5208480_number-9-cliparts-numbers-png-cartoon-transparent-png.png",
+    //10
+    "https://i.ytimg.com/vi/FNEJXKTSkYM/maxresdefault.jpg"
+    ];
+
+    // Callback function pass an array
+
+
+    // noinspection ES6ConvertVarToLetConst
+    var j=0;
+
+    function changeImg(array) {
+
+    // Pass the array to shuffle function get result
+
+    // noinspection UnnecessaryLocalVariableJS
+    var url = shuffle(array);
+
+    /* Asign the result to src attribute of img
+    || Note: the bracket notation [0]
+    || this dereferences the jQuery Object, thus
+    || changing it into a plain object
+    || Once a plain object, simple properties
+    || such as .src may be used.
+    */
+    // noinspection JSUnresolvedFunction
+    $('.imageWrapper img')[0].src = url;
+
+    // This is the equivelant in jQuery
+    // $('.imageWrapper img').attr('src', url);
+
+    /* Solution for Squaresoft images */
+    /* This should work granted that the array pictures has
+    || the appropriate urls pointing to images uploaded to
+    || the site.
+    */
+    /* ALT 1. All attributes grouped
+       $('.imageWrapper img').attr({
+         'src': url+'?format=1500w',
+         'data-src': url,
+         'data-image': url
+       });
+    */
+    /* ALT 2. attr() and .data() chained
+       $('.imageWrapper img').att('src', url+'?format=1500w').data({'src': url, 'image':url});
+    */
+    /* ALT 3. Dereferenced jQObj and plain JavaScript
+       $('.imageWrapper img')[0].src = url+'?format=1500w';
+       $('.imageWrapper img')[0].setAttribute('data-src', url);
+       $('.imageWrapper img')[0].setAttribute('data-image', url);
+    */
+}
+
+
+    // Fisher-Yates Shuffle
+    // https://stackoverflow.com/a/962890/2813224
+    function shuffle(array) {
+
+    j=j+1
+    if (j>9) {
+    j=0
+}
+
+    return array[j];
+}
+
+    // Added for demo purposes
+    $('button').on('click', function() {
+    changeImg(pictures);
+    // alert("DOUBLE CHANGE.");
+    // changeImg(pictures);
+
+    setInterval(function(){changeImg(pictures);}, 3000);
+
+
+});
+
+});
+
+
+
+
 // added by Fred. Initialize Firebase.
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
