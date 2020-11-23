@@ -5,6 +5,7 @@
     alert("var bigOne");
 
     bigOne.innerText = "Fred";
+    alert("Fred");
 
         // var dbRef = firebase.database().ref().child('text');
     // alert("var dbRef");
