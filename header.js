@@ -169,7 +169,7 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
     alert("FIREBASE DATABASE: Script loaded but not necessarily executed.");
 });
 
-    alert("finiahed firebase loads");
+    alert("FINISHED FIREBASE LOADS");
 
 /*
 
