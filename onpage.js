@@ -3,14 +3,13 @@
     document.onload = function() {checkCookies()};
 
         function checkCookies() {
-        var text = "";
 
         if (navigator.cookieEnabled == true) {
             alert("Cookies are enabled.");
-    } else {
+        } else {
             alert("Cookies are not enabled.");
-    }
-    }
+         }
+        }
 
 
     alert("ONPAGE JAVASCRIPT END");
