@@ -146,7 +146,7 @@ alert("HEADER JAVASCRIPT: includes Firebase inits");
 
 
 
-/*
+
 
 // added by Fred. Initialize Firebase.
 
@@ -166,7 +166,7 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
     alert("FIREBASE DATABASE: Script loaded but not necessarily executed.");
 });
 
-
+/*
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     var firebaseConfig = {
