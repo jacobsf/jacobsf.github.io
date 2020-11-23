@@ -192,8 +192,8 @@ measurementId: "G-QW9SSLTXSP"
 
 
 // Initialize Firebase
-//    firebase.initializeApp(firebaseConfig);
-// firebase.analytics();
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
 
 
     alert("FINISHED initializing firebase");
