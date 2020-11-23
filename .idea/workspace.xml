@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/onpage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +67,7 @@
       <workItem from="1605966164957" duration="2700000" />
       <workItem from="1606039767958" duration="19394000" />
       <workItem from="1606127167206" duration="1288000" />
-      <workItem from="1606128618259" duration="9623000" />
-    </task>
-    <task id="LOCAL-00032" summary="Added all the code in Webstorm, and fixed errors.">
-      <created>1606068909435</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1606068909435</updated>
+      <workItem from="1606128618259" duration="9985000" />
     </task>
     <task id="LOCAL-00033" summary="Added all the code in Webstorm, and fixed errors.">
       <created>1606070102171</created>
@@ -413,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606140821720</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="test">
+      <created>1606141349515</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1606141349515</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

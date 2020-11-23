@@ -1,6 +1,7 @@
     alert("ONPAGE JAVASCRIPT START");
 
-    document.onload = function() {loaderFunction()};
+    <body onLoad="loaderFunction()">
+    // document.onload = function() {loaderFunction()};
     function loaderFunction() {
         alert("Document is loaded.");
     }
