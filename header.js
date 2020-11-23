@@ -150,7 +150,7 @@ alert("HEADER JAVASCRIPT: includes Firebase inits");
 
 // added by Fred. Initialize Firebase.
 
-alert("starting firebase initilization");
+    alert("starting firebase initilization");
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
