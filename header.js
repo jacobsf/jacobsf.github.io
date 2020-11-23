@@ -150,6 +150,9 @@ alert("HEADER JAVASCRIPT: includes Firebase inits");
 
 // added by Fred. Initialize Firebase.
 
+alert("starting firebase initilization");
+
+
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js", function() {
     alert("FIREBASE JS SDK: Script loaded but not necessarily executed.");
