@@ -192,7 +192,7 @@ measurementId: "G-QW9SSLTXSP"
 
 
 // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+//    firebase.initializeApp(firebaseConfig);
 // firebase.analytics();
 
 
