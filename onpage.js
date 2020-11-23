@@ -1,6 +1,6 @@
     alert("ONPAGE JAVASCRIPT START");
 
-    document.onload = function() {checkCookies()};
+    window.onload = function() {checkCookies()};
 
         function checkCookies() {
 
