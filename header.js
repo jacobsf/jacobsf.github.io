@@ -1,6 +1,6 @@
 alert("HEADER JAVASCRIPT: includes Firebase inits");
 
-
+<script>
     // Code that Fred found on StackExchange for changing images./*
 
 
@@ -103,7 +103,7 @@ alert("HEADER JAVASCRIPT: includes Firebase inits");
 
 });
 
-
+</script>
 
 
 // added by Fred. Initialize Firebase.
