@@ -5,7 +5,7 @@
     alert("var bigOne");
 
     var dbRef = firebase.database().ref().child('text');
-    alert("var cbRef");
+    alert("var dbRef");
 
     // dbRef.on('value', snap => bigOne.innerText = snap.val());
 
