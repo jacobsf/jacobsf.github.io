@@ -201,13 +201,11 @@ measurementId: "G-QW9SSLTXSP"
 var bigOne = document.getElementById('bigOne');
 alert("var bigOne");
 
-bigOne.innerText = "Fred";
-alert("Fred");
+var dbRef = firebase.database().ref().child('text');
+alert("var dbRef");
 
-// var dbRef = firebase.database().ref().child('text');
-// alert("var dbRef");
-
-// dbRef.on('value', snap => bigOne.innerText = snap.val());
+dbRef.on('value', snap => bigOne.innerText = snap.val());
+alert("snap");
 
 
 
