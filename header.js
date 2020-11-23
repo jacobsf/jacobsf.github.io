@@ -114,8 +114,9 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js", function
     alert("FIREBASE JS SDK: Script loaded but not necessarily executed.");
 });
 
-// <!-- TODO: Add SDKs for Firebase products that you want to use
+// TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries -->
+
 $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js", function() {
     alert("FIREBASE ANALYTICS: Script loaded but not necessarily executed.");
 });
