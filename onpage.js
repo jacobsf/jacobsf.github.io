@@ -1,12 +1,8 @@
     alert("ONPAGE JAVASCRIPT START");
 
-    window.onload = function() {checkCookies()};
-
-        function checkCookies() {
-
-            alert("Cookies are not enabled.");
-
-        }
+    window.onload = function() {
+        alert('Page is loaded');
+    };
 
 
     alert("ONPAGE JAVASCRIPT END");
