@@ -153,6 +153,17 @@ alert("HEADER JAVASCRIPT: includes Firebase inits");
     alert("starting firebase initilization");
 
 
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+</body>
+
+/*
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js", function() {
     alert("FIREBASE JS SDK: Script loaded but not necessarily executed.");
@@ -168,6 +179,7 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js", fu
 $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", function() {
     alert("FIREBASE DATABASE: Script loaded but not necessarily executed.");
 });
+*/
 
     alert("FINISHED FIREBASE LOADS");
 
