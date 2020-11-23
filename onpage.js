@@ -1,5 +1,8 @@
     alert("ONPAGE JAVASCRIPT START");
 
+    <p>Getting started with Firebase</p>
+    <h1 id="bigOne">Wakanda Forever</h1>
+
     window.onload = function() {
         alert('Page is loaded >>> doing database read');
 
