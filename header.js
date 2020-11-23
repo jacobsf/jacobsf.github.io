@@ -171,7 +171,7 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
 
     alert("FINISHED FIREBASE LOADS");
 
-/*
+
 
 
 // Your web app's Firebase configuration
@@ -187,8 +187,9 @@ appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
 measurementId: "G-QW9SSLTXSP"
 };
 
-alert("finiahed creating firebase configuration object");
+    alert("FINISHED CREATING FIREBASE CONFIG OBJECT");
 
+/*
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
