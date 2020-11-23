@@ -4,7 +4,7 @@
     var bigOne = document.getElementById('bigOne');
     alert("var bigOne");
 
-    bigOne.innerText = "Fred";
+    // bigOne.innerText = "Fred";
     alert("Fred");
 
         // var dbRef = firebase.database().ref().child('text');
