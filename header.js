@@ -1,21 +1,21 @@
-alert("header javascript / edited from Webstorm / includes Firebase inits");
+alert("HEADER JAVASCRIPT: includes Firebase inits");
 
 
 // added by Fred. Initialize Firebase.
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js", function() {
-    alert("Script loaded but not necessarily executed.");
+    alert("FIREBASE JS SDK: Script loaded but not necessarily executed.");
 });
 
 // <!-- TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries -->
 $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js", function() {
-    alert("Script loaded but not necessarily executed.");
+    alert("FIREBASE ANALYTICS: Script loaded but not necessarily executed.");
 });
 
 $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", function() {
-    alert("Script loaded but not necessarily executed.");
+    alert("FIREBASE DATABASE: Script loaded but not necessarily executed.");
 });
 
 
