@@ -67,14 +67,8 @@
       <workItem from="1605956755326" duration="4220000" />
       <workItem from="1605966164957" duration="2700000" />
       <workItem from="1606039767958" duration="19394000" />
-      <workItem from="1606127167206" duration="1075000" />
-    </task>
-    <task id="LOCAL-00002" summary="Note from Webstorm">
-      <created>1605957531901</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1605957531901</updated>
+      <workItem from="1606127167206" duration="1288000" />
+      <workItem from="1606128618259" duration="63000" />
     </task>
     <task id="LOCAL-00003" summary="Added all the code in Webstorm.">
       <created>1605959041272</created>
@@ -412,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606127694357</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="test">
+      <created>1606128321123</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1606128321123</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,10 +448,10 @@
     </state>
     <state x="489" y="344" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-725.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1195.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606066426501" />
     <state x="261" y="242" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1024.717@0.25.1024.717" timestamp="1606058856219" />
-    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606127713790">
+    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606128336267">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="0" y="25" key="Vcs.Push.Dialog.v2/-505.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1415.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606127713790" />
+    <state x="0" y="25" key="Vcs.Push.Dialog.v2/-505.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1415.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606128336267" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/-725.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1195.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606072268578" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/0.25.1024.717@0.25.1024.717" timestamp="1606123727028" />
     <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2/0.25.1024.743@0.25.1024.743" timestamp="1606125431144" />

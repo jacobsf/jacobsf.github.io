@@ -169,7 +169,7 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
     alert("FIREBASE DATABASE: Script loaded but not necessarily executed.");
 });
 
-/*
+
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     var firebaseConfig = {
@@ -181,15 +181,16 @@ $.getScript("https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js", fun
     messagingSenderId: "55052545917",
     appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
     measurementId: "G-QW9SSLTXSP"
-};
+    };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
 
+    alert("finiahed firebase initilization");
 
 
 
-*/
+
 
 
 
