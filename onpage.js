@@ -1,9 +1,8 @@
-alert("javascript edited and included from from WebStorm");
+    alert("ONPAGE JAVASCRIPT START");
 
 
 
-    alert("completed Webstorm script from webstorm");
-
+    alert("ONPAGE JAVASCRIPT END");
 
 
 
