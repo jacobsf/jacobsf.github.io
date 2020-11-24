@@ -1,12 +1,10 @@
 alert("Injected Best Included Javascript3");
 
 // ============================================================
-
 // Code that Fred found on StackExchange for changing images./*
 
-
 // noinspection JSUnresolvedFunction
-$(function() {
+$(function () {
     const pictures = [
         //1
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Number_1_in_green_rounded_square.svg/512px-Number_1_in_green_rounded_square.svg.png",
@@ -37,27 +35,29 @@ $(function() {
         $('.imageWrapper img')[0].src = url;
     }
 
-    var j=0;
+    var j = 0;
+
     function shuffle(array) {
-        j=j+1
-        if (j>9) {
-            j=0
+        j = j + 1
+        if (j > 9) {
+            j = 0
         }
         return array[j];
     }
 
     // Added for demo purposes
-    $('button').on('click', function() {
+    $('button').on('click', function () {
         changeImg(pictures);
-        setInterval(function(){changeImg(pictures);}, 3000);
+        setInterval(function () {
+            changeImg(pictures);
+        }, 3000);
     });
 
 });
 
 
 // ============================================================
-
-// added by Fred. A script to include HTML. Source is W3 Schools.
+// A script to include HTML. Source is W3 Schools.
 
 function includeHTML() {
     // noinspection ES6ConvertVarToLetConst
@@ -71,11 +71,14 @@ function includeHTML() {
         if (file) {
             /* Make an HTTP request using the attribute value as the file name: */
             xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
+            xhttp.onreadystatechange = function () {
                 if (this.readyState == 4) {
                     if (this.status == 200) {// noinspection JSReferencingMutableVariableFromClosure
-                        elmnt.innerHTML = this.responseText;}
-                    if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                        elmnt.innerHTML = this.responseText;
+                    }
+                    if (this.status == 404) {
+                        elmnt.innerHTML = "Page not found.";
+                    }
                     /* Remove the attribute, and call this function once more: */
                     elmnt.removeAttribute("w3-include-html");
                     includeHTML();

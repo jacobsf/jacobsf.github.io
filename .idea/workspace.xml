@@ -19,9 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Best-Included-Javascript-Injection3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Best-Included-Javascript-Injection3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Best-Included-Javascript-Injection3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +78,7 @@
       <workItem from="1606128618259" duration="15001000" />
       <workItem from="1606162887338" duration="949000" />
       <workItem from="1606163983074" duration="992000" />
-      <workItem from="1606207101580" duration="2565000" />
-    </task>
-    <task id="LOCAL-00054" summary="test">
-      <created>1606131410133</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1606131410133</updated>
+      <workItem from="1606207101580" duration="2962000" />
     </task>
     <task id="LOCAL-00055" summary="test">
       <created>1606131553712</created>
@@ -424,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606209575255</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="test">
+      <created>1606210204102</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1606210204102</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,17 +453,17 @@
       <screen x="0" y="25" width="1024" height="717" />
     </state>
     <state x="146" y="66" key="#Inspections/0.25.1024.717@0.25.1024.717" timestamp="1606057254167" />
-    <state x="0" y="25" width="1024" height="743" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606209078110">
+    <state x="0" y="25" width="1024" height="743" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606210345459">
       <screen x="0" y="25" width="1024" height="743" />
     </state>
     <state x="489" y="344" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-725.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1195.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606066426501" />
     <state x="261" y="242" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1024.717@0.25.1024.717" timestamp="1606058856219" />
-    <state x="0" y="25" width="1024" height="743" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1024.743@0.25.1024.743" timestamp="1606209078110" />
+    <state x="0" y="25" width="1024" height="743" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1024.743@0.25.1024.743" timestamp="1606210345459" />
     <state x="469" y="188" key="SettingsEditor" timestamp="1606163228246">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="469" y="188" key="SettingsEditor/-575.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1352.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606163228246" />
-    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606209583055">
+    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606210214080">
       <screen x="0" y="25" width="1024" height="743" />
     </state>
     <state x="-505" y="1105" key="Vcs.Push.Dialog.v2/-505.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1415.1105.1024.743/0.25.1920.1055@-505.1105.1920.1055" timestamp="1606156126484" />
@@ -473,7 +472,7 @@
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/-5760.25.1920.1055/-7680.25.1920.1055/0.25.1920.1055/-3840.25.3840.2135@0.25.1920.1055" timestamp="1606208147769" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/-725.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1195.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606072268578" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/0.25.1024.717@0.25.1024.717" timestamp="1606123727028" />
-    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2/0.25.1024.743@0.25.1024.743" timestamp="1606209583055" />
+    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2/0.25.1024.743@0.25.1024.743" timestamp="1606210214080" />
     <state x="0" y="25" width="1024" height="743" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605957207100">
       <screen x="0" y="25" width="1024" height="743" />
     </state>
