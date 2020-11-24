@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript21e");
+alert("Injected Best Included Javascript21g");
 
 
 alert("Waiting for page to finish loading.");
@@ -21,9 +21,9 @@ function whenLoaded() {
     var bigOne = document.getElementById('bigOne');
     var dbRef = firebase.database().ref().child('text');
 
-    var imageRealURL1 = firebase.database().ref().child('Image 1 URL');
-    var imageRealURL2 = firebase.database().ref().child('Image 2 URL');
-    var imageRealURL3 = firebase.database().ref().child('Image 3 URL');
+    var imageRealURL1 = firebase.database().ref().child('fBase2');
+    var imageRealURL2 = firebase.database().ref().child('fBase2');
+    var imageRealURL3 = firebase.database().ref().child('fBase3');
 
 
     // writing the data to the web page
