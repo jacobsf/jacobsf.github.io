@@ -1,7 +1,38 @@
 alert("Injected Best Included Javascript4");
 
+
+
 // ============================================================
-// Code that Fred found on StackExchange for changing images./*
+// Firebase
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+    apiKey: "AIzaSyA4x6htT7vOI6Z9aSTzY0-fIzqnqZLljpk",
+    authDomain: "hello-world-test-by-fred.firebaseapp.com",
+    databaseURL: "https://hello-world-test-by-fred.firebaseio.com",
+    projectId: "hello-world-test-by-fred",
+    storageBucket: "hello-world-test-by-fred.appspot.com",
+    messagingSenderId: "55052545917",
+    appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
+    measurementId: "G-QW9SSLTXSP"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    // getting the text value from the database
+    var bigOne = document.getElementById('bigOne');
+    var dbRef = firebase.database().ref().child('text');
+    dbRef.on('value', snap => bigOne.innerText = snap.val());
+
+
+
+
+
+
+// ============================================================
+// Code that Fred found on StackExchange for changing images.
 
 // noinspection JSUnresolvedFunction
 $(function () {
