@@ -4,7 +4,7 @@ alert("Injected Best Included Javascript5");
 
 
 // Just try updating the onpage text.
-alert("Uodating onpage text");
+alert("Updating onpage text");
 document.getElementById("bigOne").innerHTML = "New text!";
 
 
