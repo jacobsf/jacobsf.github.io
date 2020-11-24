@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript21g");
+alert("Injected Best Included Javascript21h");
 
 
 alert("Waiting for page to finish loading.");
@@ -28,10 +28,12 @@ function whenLoaded() {
 
     // writing the data to the web page
     dbRef.on('value', snap => bigOne.innerText = snap.val());
+
     // pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
-    pictures[1] = imageRealURL1;
-    pictures[2] = imageRealURL2;
-    pictures[3] = imageRealURL3;
+    imageRealURL1.on('value', snap => pictures[0] = snap.val());
+    imageRealURL2.on('value', snap => pictures[1] = snap.val());
+    imageRealURL3.on('value', snap => pictures[2] = snap.val());
+
 
 }
 
