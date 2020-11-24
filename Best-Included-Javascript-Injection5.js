@@ -4,9 +4,8 @@ alert("Injected Best Included Javascript5");
 
 
 // Just try updating the onpage text.
-alert("Uodating onopage text");
-bigOne.innerText = "Freddie";
-
+alert("Uodating onpage text");
+document.getElementById("bigOne").innerHTML = "New text!";
 
 
 /*
