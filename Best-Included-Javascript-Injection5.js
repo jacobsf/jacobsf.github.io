@@ -7,6 +7,11 @@ alert("Injected Best Included Javascript5");
 alert("Updating onpage text");
 document.getElementById("bigOne").innerHTML = "New text!";
 
+onLoad="myFunction()";
+function myFunction() {
+    alert("Page is loaded");
+}
+
 
 /*
 // ============================================================
