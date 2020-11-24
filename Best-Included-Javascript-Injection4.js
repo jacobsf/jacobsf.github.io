@@ -2,6 +2,14 @@ alert("Injected Best Included Javascript4");
 
 
 
+
+// Just try updating the onpage text.
+alert("Uodating onopage text");
+bigOne.innerText = "Freddie";
+
+
+
+/*
 // ============================================================
 // Firebase
 
@@ -25,7 +33,7 @@ alert("Injected Best Included Javascript4");
     var bigOne = document.getElementById('bigOne');
     var dbRef = firebase.database().ref().child('text');
     dbRef.on('value', snap => bigOne.innerText = snap.val());
-
+*/
 
 
 
