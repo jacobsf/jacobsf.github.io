@@ -1,16 +1,20 @@
-alert("Injected Best Included Javascript5");
+alert("Injected Best Included Javascript5a");
 
 
 
 
 // Just try updating the onpage text.
 alert("Updating onpage text");
-document.getElementById("bigOne").innerHTML = "New text!";
+// document.getElementById("bigOne").innerHTML = "New text!";
 
-onLoad="myFunction()";
-function myFunction() {
-    alert("Page is loaded");
+
+    window.onload = function() {myFunction()};
+
+    function myFunction() {
+    document.getElementById("bigOne").innerHTML = "Iframe is loaded.";
 }
+
+
 
 
 /*
