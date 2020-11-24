@@ -21,10 +21,18 @@ function whenLoaded() {
     var bigOne = document.getElementById('bigOne');
     var dbRef = firebase.database().ref().child('text');
 
+    var imageRealURL1 = firebase.database().ref().child('Image 1 URL');
+    var imageRealURL2 = firebase.database().ref().child('Image 2 URL');
+    var imageRealURL3 = firebase.database().ref().child('Image 3 URL');
+
 
     // writing the data to the web page
     dbRef.on('value', snap => bigOne.innerText = snap.val());
-    pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
+    // pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
+    pictures[0] = imageRealURL1;
+    pictures[1] = imageRealURL2;
+    pictures[2] = imageRealURL3;
+
 }
 
 
