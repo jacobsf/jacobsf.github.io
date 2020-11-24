@@ -1,28 +1,35 @@
-alert("Injected Best Included Javascript10");
-
-
+alert("Injected Best Included Javascript10a");
 
 
 // Just try updating the onpage text.
-alert("Updating onpage text");
-// document.getElementById("bigOne").innerHTML = "New text!";
 
+alert("Waiting for page to finish loading.");
+window.onload = function () {
+    alert("The window is loaded. Now caling myFunction.");
+    myFunction()
+};
 
-    window.onload = function() {myFunction()};
+function myFunction() {
 
-    function myFunction() {
-    document.getElementById("bigOne").innerHTML = "Iframe is loaded.";
+    alert("The window is loaded. Now doing a simple text substitution.");
+
+    document.getElementById("bigOne").innerHTML = "The window is loaded.";
+
+    alert("The window is loaded. Now starting the Firebase stuff.");
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    // getting the text value from the database
+    var bigOne = document.getElementById('bigOne');
+    var dbRef = firebase.database().ref().child('text');
+    dbRef.on('value', snap => bigOne.innerText = snap.val());
 }
 
-
-
-
-/*
 // ============================================================
 // Firebase
 
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     var firebaseConfig = {
     apiKey: "AIzaSyA4x6htT7vOI6Z9aSTzY0-fIzqnqZLljpk",
     authDomain: "hello-world-test-by-fred.firebaseapp.com",
@@ -33,17 +40,6 @@ alert("Updating onpage text");
     appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
     measurementId: "G-QW9SSLTXSP"
 };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-
-    // getting the text value from the database
-    var bigOne = document.getElementById('bigOne');
-    var dbRef = firebase.database().ref().child('text');
-    dbRef.on('value', snap => bigOne.innerText = snap.val());
-*/
-
-
 
 
 
@@ -110,33 +106,33 @@ function includeHTML() {
     // noinspection ES6ConvertVarToLetConst
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
-    z = document.getElementsByTagName("*");
-    for (i = 0; i < z.length; i++) {
-        elmnt = z[i];
-        /*search for elements with a certain attribute:*/
-        file = elmnt.getAttribute("w3-include-html");
-        if (file) {
-            /* Make an HTTP request using the attribute value as the file name: */
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-                if (this.readyState == 4) {
-                    if (this.status == 200) {// noinspection JSReferencingMutableVariableFromClosure
-                        elmnt.innerHTML = this.responseText;
-                    }
-                    if (this.status == 404) {
-                        elmnt.innerHTML = "Page not found.";
-                    }
-                    /* Remove the attribute, and call this function once more: */
-                    elmnt.removeAttribute("w3-include-html");
-                    includeHTML();
+z = document.getElementsByTagName("*");
+for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain attribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+        /* Make an HTTP request using the attribute value as the file name: */
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4) {
+                if (this.status == 200) {// noinspection JSReferencingMutableVariableFromClosure
+                    elmnt.innerHTML = this.responseText;
                 }
+                if (this.status == 404) {
+                    elmnt.innerHTML = "Page not found.";
+                }
+                /* Remove the attribute, and call this function once more: */
+                elmnt.removeAttribute("w3-include-html");
+                includeHTML();
             }
-            xhttp.open("GET", file, true);
-            xhttp.send();
-            /* Exit the function: */
-            return;
         }
+        xhttp.open("GET", file, true);
+        xhttp.send();
+        /* Exit the function: */
+        return;
     }
+}
 }
 
 // ============================================================
