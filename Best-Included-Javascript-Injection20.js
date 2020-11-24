@@ -1,20 +1,18 @@
-alert("Injected Best Included Javascript20");
+alert("Injected Best Included Javascript20a");
 
-
-// Just try updating the onpage text.
 
 alert("Waiting for page to finish loading.");
 window.onload = function () {
-    alert("The window is loaded. Now calling myFunction.");
+//    alert("The window is loaded. Now calling myFunction.");
     whenLoaded()
 };
 
 function whenLoaded() {
 
-    alert("The window is loaded. Now doing a simple text substitution.");
-    document.getElementById("bigOne").innerHTML = "The window is loaded.";
+//    alert("The window is loaded. Now doing a simple text substitution.");
+//    document.getElementById("bigOne").innerHTML = "The window is loaded.";
 
-    alert("The window is loaded. Now starting the Firebase stuff.");
+//    alert("The window is loaded. Now starting the Firebase stuff.");
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
@@ -22,13 +20,17 @@ function whenLoaded() {
     // getting the text value from the database
     var bigOne = document.getElementById('bigOne');
     var dbRef = firebase.database().ref().child('text');
+
+
+    // writing the data to the web page
     dbRef.on('value', snap => bigOne.innerText = snap.val());
+    pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png"
 }
 
 
 // ============================================================
 // Firebase configuration
-    var firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyA4x6htT7vOI6Z9aSTzY0-fIzqnqZLljpk",
     authDomain: "hello-world-test-by-fred.firebaseapp.com",
     databaseURL: "https://hello-world-test-by-fred.firebaseio.com",
@@ -38,6 +40,7 @@ function whenLoaded() {
     appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
     measurementId: "G-QW9SSLTXSP"
 };
+
 
 
 
@@ -104,33 +107,33 @@ function includeHTML() {
     // noinspection ES6ConvertVarToLetConst
     var z, i, elmnt, file, xhttp;
     /* Loop through a collection of all HTML elements: */
-z = document.getElementsByTagName("*");
-for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain attribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-        /* Make an HTTP request using the attribute value as the file name: */
-        xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4) {
-                if (this.status == 200) {// noinspection JSReferencingMutableVariableFromClosure
-                    elmnt.innerHTML = this.responseText;
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain attribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+            /* Make an HTTP request using the attribute value as the file name: */
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4) {
+                    if (this.status == 200) {// noinspection JSReferencingMutableVariableFromClosure
+                        elmnt.innerHTML = this.responseText;
+                    }
+                    if (this.status == 404) {
+                        elmnt.innerHTML = "Page not found.";
+                    }
+                    /* Remove the attribute, and call this function once more: */
+                    elmnt.removeAttribute("w3-include-html");
+                    includeHTML();
                 }
-                if (this.status == 404) {
-                    elmnt.innerHTML = "Page not found.";
-                }
-                /* Remove the attribute, and call this function once more: */
-                elmnt.removeAttribute("w3-include-html");
-                includeHTML();
             }
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /* Exit the function: */
+            return;
         }
-        xhttp.open("GET", file, true);
-        xhttp.send();
-        /* Exit the function: */
-        return;
     }
-}
 }
 
 // ============================================================
