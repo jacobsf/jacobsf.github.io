@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript3");
+alert("Injected Best Included Javascript4");
 
 // ============================================================
 // Code that Fred found on StackExchange for changing images./*
