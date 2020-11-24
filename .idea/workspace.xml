@@ -19,8 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/Best-Included-Javascript-Injection21.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Best-Included-Javascript-Injection20.js" beforeDir="false" afterPath="$PROJECT_DIR$/Best-Included-Javascript-Injection20.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +78,7 @@
       <workItem from="1606128618259" duration="15001000" />
       <workItem from="1606162887338" duration="949000" />
       <workItem from="1606163983074" duration="992000" />
-      <workItem from="1606207101580" duration="10847000" />
-    </task>
-    <task id="LOCAL-00075" summary="test">
-      <created>1606139158117</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1606139158117</updated>
+      <workItem from="1606207101580" duration="11099000" />
     </task>
     <task id="LOCAL-00076" summary="test">
       <created>1606139330795</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606221769044</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="test">
+      <created>1606222145314</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1606222145314</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,13 +467,13 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="469" y="188" key="SettingsEditor/-575.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1352.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606163228246" />
-    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606222011802">
+    <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2" timestamp="1606222152111">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="-505" y="1105" key="Vcs.Push.Dialog.v2/-505.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1415.1105.1024.743/0.25.1920.1055@-505.1105.1920.1055" timestamp="1606156126484" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/-505.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1415.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606153513392" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/-575.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1352.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606164379738" />
-    <state x="0" y="25" key="Vcs.Push.Dialog.v2/-5760.25.1920.1055/-7680.25.1920.1055/0.25.1920.1055/-3840.25.3840.2135@0.25.1920.1055" timestamp="1606222011802" />
+    <state x="0" y="25" key="Vcs.Push.Dialog.v2/-5760.25.1920.1055/-7680.25.1920.1055/0.25.1920.1055/-3840.25.3840.2135@0.25.1920.1055" timestamp="1606222152111" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/-725.1105.1920.1055/1920.25.1920.1055/-1920.25.1920.1055/1195.1105.1024.743/0.25.1920.1055@0.25.1920.1055" timestamp="1606072268578" />
     <state x="0" y="25" key="Vcs.Push.Dialog.v2/0.25.1024.717@0.25.1024.717" timestamp="1606123727028" />
     <state x="0" y="25" width="1024" height="743" key="Vcs.Push.Dialog.v2/0.25.1024.743@0.25.1024.743" timestamp="1606218882276" />
