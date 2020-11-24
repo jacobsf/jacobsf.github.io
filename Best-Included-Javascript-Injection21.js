@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript21j");
+alert("Injected Best Included Javascript21k");
 
 
 alert("Waiting for page to finish loading.");
@@ -17,22 +17,19 @@ function whenLoaded() {
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
 
+
+    alert("The window is loaded. Reading from DB and writing to onscreen text.");
     // getting the text value from the database
     var bigOne = document.getElementById('bigOne');
     var dbRef = firebase.database().ref().child('text');
-
-    var imageRealURL1 = firebase.database().ref().child('fBase2');
-    var imageRealURL2 = firebase.database().ref().child('fBase2');
-    var imageRealURL3 = firebase.database().ref().child('fBase3');
-
-
     // writing the data to the web page
     dbRef.on('value', snap => bigOne.innerText = snap.val());
 
-    // pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
-    imageRealURL1.on('value', snap => pictures[0].innerText = snap.val());
-    imageRealURL2.on('value', snap => pictures[1].innerText = snap.val());
-    imageRealURL3.on('value', snap => pictures[2].innerText = snap.val());
+
+    alert("The window is loaded. Reading from DB and writing to pictures array.");
+    var imageDBref2 = firebase.database().ref().child('fbase2');
+    // writing the data to the pictures array
+    imageDBref2.on('value', snap => pictures[2] = snap.val());
 
 }
 
@@ -89,7 +86,6 @@ $(function () {
     }
 
     var j = 0;
-//    pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
 
 
     function shuffle(array) {
