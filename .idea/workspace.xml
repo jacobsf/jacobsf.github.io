@@ -18,9 +18,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/Best-Included-Javascript-Injection21.js" beforeDir="false" afterPath="$PROJECT_DIR$/Best-Included-Javascript-Injection21.js" afterDir="false" />
-    </list>
+    <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,14 +75,7 @@
       <workItem from="1606128618259" duration="15001000" />
       <workItem from="1606162887338" duration="949000" />
       <workItem from="1606163983074" duration="992000" />
-      <workItem from="1606207101580" duration="20151000" />
-    </task>
-    <task id="LOCAL-00092" summary="test">
-      <created>1606153212607</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1606153212607</updated>
+      <workItem from="1606207101580" duration="20192000" />
     </task>
     <task id="LOCAL-00093" summary="test">
       <created>1606153401269</created>
@@ -422,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606307557402</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="test">
+      <created>1606307594348</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1606307594348</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
