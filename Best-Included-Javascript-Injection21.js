@@ -20,17 +20,17 @@ function whenLoaded() {
 
     alert("The window is loaded. Reading from DB and writing to onscreen text.");
     // getting the text value from the database
-    var bigOne = document.getElementById('bigOne');
-    var dbRef = firebase.database().ref().child('text');
+    // var bigOne = document.getElementById('bigOne');
+    // var dbRef = firebase.database().ref().child('text');
     // writing the data to the web page
-    dbRef.on('value', snap => bigOne.innerText = snap.val());
+    // dbRef.on('value', snap => bigOne.innerText = snap.val());
 
 
     alert("The window is loaded. Reading from DB and writing to pictures array.");
-    var imageBigOne = "pictures(2)";
+    var bigOne = document.getElementById('bigOne');
     var imageDBref = firebase.database().ref().child('fbase2');
     // writing the data to the pictures array
-    imageDBref.on('value', snap => imageBigOne.innerText = snap.val());
+    imageDBref.on('value', snap => bigOne.innerText = snap.val());
 
 }
 
