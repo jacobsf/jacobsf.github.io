@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript22k");
+alert("Injected Best Included Javascript22l");
 
 
 alert("Waiting for page to finish loading.");
@@ -33,7 +33,7 @@ function whenLoaded() {
     // writing the data to the web page
     dbRef.on('value', snap => bigOne.innerText = snap.val());
     // writing the data to the pictures array
-    pictures[2] = "https://i.pinimg.com/originals/fa/53/ab/fa53ab35948eec1341e5a0ed465fb9dc.jpg"
+    pictures(2) = "https://i.pinimg.com/originals/fa/53/ab/fa53ab35948eec1341e5a0ed465fb9dc.jpg"
 }
 
 
