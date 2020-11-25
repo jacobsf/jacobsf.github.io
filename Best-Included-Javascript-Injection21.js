@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript21o");
+alert("Injected Best Included Javascript21p");
 
 
 alert("Waiting for page to finish loading.");
@@ -27,10 +27,10 @@ function whenLoaded() {
 
 
     alert("The window is loaded. Reading from DB and writing to pictures array.");
-    var imageBigOne = document.pictures[2];
-    var imageDBref2 = firebase.database().ref().child('fbase2');
+    var imageBigOne = "pictures(2)";
+    var imageDBref = firebase.database().ref().child('fbase2');
     // writing the data to the pictures array
-    imageDBref2.on('value', snap => bigOne.innerText = snap.val());
+    imageDBref.on('value', snap => imageBigOne.innerText = snap.val());
 
 }
 
