@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript40a");
+alert("Injected Best Included Javascript40b");
 
 
 alert("Waiting for page to finish loading.");
@@ -80,7 +80,7 @@ $(function () {
     }
 
     var j = 0;
-    pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
+    // pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
 
 
     function shuffle(array) {
