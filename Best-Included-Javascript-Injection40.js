@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript40d");
+alert("Injected Best Included Javascript40e");
 
 
 alert("Waiting for page to finish loading.");
@@ -51,8 +51,8 @@ function whenLoaded() {
 
         // writing the data to the web page
         dbRef.on('value', snap => bigOne.innerText = snap.val());
-        // pictures[2] = bigOne.innerText;
-        pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
+        pictures[2] = bigOne.innerText;
+        // pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
 
 
         // Callback function pass an array
