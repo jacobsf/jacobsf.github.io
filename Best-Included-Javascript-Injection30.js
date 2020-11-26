@@ -1,10 +1,10 @@
-alert("Injected Best Included Javascript30a");
+alert("Injected Best Included Javascript30b");
 
 
 alert("Waiting for page to finish loading.");
 window.onload = function () {
-//    alert("The window is loaded. Now calling myFunction.");
-    whenLoaded()
+   alert("The window is loaded. Now calling myFunction.");
+    whenLoaded();
 };
 
 function whenLoaded() {
