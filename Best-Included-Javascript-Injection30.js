@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript30");
+alert("Injected Best Included Javascript30a");
 
 
 alert("Waiting for page to finish loading.");
@@ -19,7 +19,7 @@ function whenLoaded() {
 
     // getting the text value from the database
     var bigOne = document.getElementById('bigOne');
-    var dbRef = firebase.database().ref().child('text');
+    var dbRef = firebase.database().ref().child('fBase2');
 
 
     // writing the data to the web page
