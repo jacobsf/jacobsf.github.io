@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript22n");
+alert("Injected Best Included Javascript22o");
 
 
 alert("Waiting for page to finish loading.");
@@ -30,12 +30,12 @@ function whenLoaded() {
 
     // getting the text value from the database
     var bigOne = document.getElementById('bigOne');
-    var dbRef = firebase.database().ref().child('text');
+    var dbRef = firebase.database().ref().child('fBase2');
 
 
     // writing the data to the web page
     dbRef.on('value', snap => bigOne.innerText = snap.val());
-    pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
+    pictures[1] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
 
 
 
