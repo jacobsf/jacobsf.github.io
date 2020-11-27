@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript40g");
+alert("Injected Best Included Javascript40h");
 
 
 alert("Waiting for page to finish loading.");
@@ -51,7 +51,7 @@ function whenLoaded() {
 
         // writing the data to the web page
         dbRef.on('value', snap => bigOne.innerText = snap.val());
-        pictures[2] = document.getElementById('bigOne').innerText
+        pictures[2] = '"' + document.getElementById('bigOne').innerText + '"';
         // pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
 
 
