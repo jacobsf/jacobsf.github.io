@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript100a");
+alert("Injected Best Included Javascript100b");
 
 
 alert("Waiting for page to finish loading.");
@@ -93,7 +93,7 @@ function whenLoaded() {
 
         function shuffle(array) {
             j = j + 1
-            if (j > 9) {
+            if (j > 7) {
                 j = 0
             }
             return array[j];
