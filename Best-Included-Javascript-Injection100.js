@@ -18,8 +18,24 @@ function whenLoaded() {
     firebase.analytics();
 
     // getting the text value from the database
-    var bigOne = document.getElementById('bigOne');
-    var dbRef = firebase.database().ref().child('fBase2');
+    var bigOne1 = document.getElementById('bigOne1');
+    var bigOne2 = document.getElementById('bigOne2');
+    var bigOne3 = document.getElementById('bigOne3');
+    var bigOne4 = document.getElementById('bigOne4');
+    var bigOne5 = document.getElementById('bigOne5');
+    var bigOne6 = document.getElementById('bigOne6');
+    var bigOne7 = document.getElementById('bigOne7');
+    var bigOne8 = document.getElementById('bigOne8');
+
+    var dbRef1 = firebase.database().ref().child('live1');
+    var dbRef2 = firebase.database().ref().child('live2');
+    var dbRef3 = firebase.database().ref().child('live3');
+    var dbRef4 = firebase.database().ref().child('live4');
+    var dbRef5 = firebase.database().ref().child('live5');
+    var dbRef6 = firebase.database().ref().child('live6');
+    var dbRef7 = firebase.database().ref().child('live7');
+    var dbRef8 = firebase.database().ref().child('live8');
+
 
 // ============================================================
 // Code that Fred found on StackExchange for changing images.
@@ -28,31 +44,42 @@ function whenLoaded() {
     $(function () {
         const pictures = [
             //1
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Number_1_in_green_rounded_square.svg/512px-Number_1_in_green_rounded_square.svg.png",
+            "place_holder",
             //2
-            "https://images-na.ssl-images-amazon.com/images/I/814x6GWAgEL._AC_SL1500_.jpg",
+            "place_holder",
             //3
-            "https://static.dazzling.news/img/articles/3187/800x800/5a589e3b0b4de_three-706895_960_720.jpg",
+            "place_holder",
             //4
-            "https://i1.wp.com/mysoulurgenumber.com/wp-content/uploads/2018/10/soul-urge-number-4.png?fit=1442%2C1442&ssl=1",
+            "place_holder",
             //5
-            "https://www.astrogle.com/images/2014/09/number-52.jpg",
+            "place_holder",
             //6
-            "https://www.pngfind.com/pngs/m/98-983768_numbers-png-number-6-clipart-png-transparent-png.png",
+            "place_holder",
             //7
-            "https://image.shutterstock.com/image-vector/vector-illustration-realistic-retro-signboard-260nw-277121081.jpg",
+            "place_holder",
             //8
-            "https://image.shutterstock.com/image-illustration/3d-shiny-red-number-collection-260nw-120044464.jpg",
-            //9
-            "https://www.pngitem.com/pimgs/m/520-5208480_number-9-cliparts-numbers-png-cartoon-transparent-png.png",
-            //10
-            "https://i.ytimg.com/vi/FNEJXKTSkYM/maxresdefault.jpg"
+            "place_holder"
         ];
 
         // writing the data to the web page
-        dbRef.on('value', snap => bigOne.innerText = snap.val());
-        dbRef.on('value', snap => pictures[2] = snap.val());
-        // pictures[2] = "https://www.legacy.com/wp-content/uploads/2020/07/paul_newman_1600x500-1200x900.png";
+        dbRef1.on('value', snap => bigOne1.innerText = snap.val());
+        dbRef2.on('value', snap => bigOne2.innerText = snap.val());
+        dbRef3.on('value', snap => bigOne3.innerText = snap.val());
+        dbRef4.on('value', snap => bigOne4.innerText = snap.val());
+        dbRef5.on('value', snap => bigOne5.innerText = snap.val());
+        dbRef6.on('value', snap => bigOne6.innerText = snap.val());
+        dbRef7.on('value', snap => bigOne7.innerText = snap.val());
+        dbRef8.on('value', snap => bigOne8.innerText = snap.val());
+
+        dbRef1.on('value', snap => pictures[0] = snap.val());
+        dbRef2.on('value', snap => pictures[1] = snap.val());
+        dbRef3.on('value', snap => pictures[2] = snap.val());
+        dbRef4.on('value', snap => pictures[3] = snap.val());
+        dbRef5.on('value', snap => pictures[4] = snap.val());
+        dbRef6.on('value', snap => pictures[5] = snap.val());
+        dbRef7.on('value', snap => pictures[6] = snap.val());
+        dbRef8.on('value', snap => pictures[7] = snap.val());
+
 
 
         // Callback function pass an array
