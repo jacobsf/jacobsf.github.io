@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript101f");
+alert("Injected Best Included Javascript101g");
 
 
 alert("Waiting for page to finish loading.");
@@ -84,17 +84,17 @@ function whenLoaded() {
         var j = 0;
 
         // Callback function pass an array
-        function changeImg(array, direction) {
-            var url = shuffle(array, direction);
+        function changeImg(array, direction, increment) {
+            var url = shuffle(array, direction, increment);
             $('.imageWrapper img')[0].src = url;
         }
 
 
-        function shuffle(array, direction) {
+        function shuffle(array, direction, increment) {
             if (direction == "forward") {
-                j = j + 1
+                j = j + increment
             } else {
-                j = j - 1
+                j = j - increment
             }
             if (j > 7) {
                 j = 0
@@ -109,7 +109,7 @@ function whenLoaded() {
         // Added for demo purposes
         $('button').on('click', function () {
             setInterval(function () {
-                changeImg(pictures, "backward");
+                changeImg(pictures, "backward", 1);
             }, 3000);
         });
 
