@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript110g");
+alert("Injected Best Included Javascript110h");
 
 
 alert("Waiting for page to finish loading.");
@@ -35,6 +35,21 @@ const pictures = [
 ];
 
 
+function shuffle(array, direction, increment) {
+    if (direction == "forward") {
+        j = j + increment
+    } else {
+        j = j - increment
+    }
+    if (j > 7) {
+        j = 0
+    }
+    if (j < 0) {
+        j = 7
+    }
+    // alert("j is " + j);
+    return array[j];
+}
 
 function whenLoaded() {
 
@@ -95,23 +110,6 @@ function whenLoaded() {
 
 
 
-
-
-        function shuffle(array, direction, increment) {
-            if (direction == "forward") {
-                j = j + increment
-            } else {
-                j = j - increment
-            }
-            if (j > 7) {
-                j = 0
-            }
-            if (j < 0) {
-                j = 7
-            }
-            // alert("j is " + j);
-            return array[j];
-        }
 
         // Added for demo purposes
         $('button').on('click', function () {
