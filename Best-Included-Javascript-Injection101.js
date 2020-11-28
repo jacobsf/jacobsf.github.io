@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript101b");
+alert("Injected Best Included Javascript101c");
 
 
 alert("Waiting for page to finish loading.");
