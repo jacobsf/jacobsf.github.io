@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript101g");
+alert("Injected Best Included Javascript101h");
 
 
 alert("Waiting for page to finish loading.");
@@ -109,7 +109,7 @@ function whenLoaded() {
         // Added for demo purposes
         $('button').on('click', function () {
             setInterval(function () {
-                changeImg(pictures, "backward", 1);
+                changeImg(pictures, "backward", 2);
             }, 3000);
         });
 
