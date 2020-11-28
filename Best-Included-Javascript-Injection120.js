@@ -1,9 +1,9 @@
-alert("Injected Best Included Javascript120a");
+alert("Injected Best Included Javascript120c");
 
 
 alert("Waiting for page to finish loading.");
 window.onload = function () {
-    alert("The window is loaded. Now calling myFunction.");
+    // alert("The window is loaded. Now calling myFunction.");
     whenLoaded();
 };
 
@@ -40,7 +40,7 @@ function shuffle(array, direction, increment) {
         j = j + increment
     } else if (direction == "backward") {
         j = j - increment
-    } else if (direction == "refresh") {
+    } else {
         // do nothing to the count
     }
 
