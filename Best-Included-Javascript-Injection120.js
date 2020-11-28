@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript120");
+alert("Injected Best Included Javascript120a");
 
 
 alert("Waiting for page to finish loading.");
@@ -63,15 +63,6 @@ function whenLoaded() {
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
 
-    // getting the text value from the database
-    var bigOne1 = document.getElementById('bigOne1');
-    var bigOne2 = document.getElementById('bigOne2');
-    var bigOne3 = document.getElementById('bigOne3');
-    var bigOne4 = document.getElementById('bigOne4');
-    var bigOne5 = document.getElementById('bigOne5');
-    var bigOne6 = document.getElementById('bigOne6');
-    var bigOne7 = document.getElementById('bigOne7');
-    var bigOne8 = document.getElementById('bigOne8');
 
     var dbRef1 = firebase.database().ref().child('live1');
     var dbRef2 = firebase.database().ref().child('live2');
@@ -90,14 +81,6 @@ function whenLoaded() {
     $(function () {
 
         // writing the data to the web page
-        dbRef1.on('value', snap => bigOne1.innerText = snap.val());
-        dbRef2.on('value', snap => bigOne2.innerText = snap.val());
-        dbRef3.on('value', snap => bigOne3.innerText = snap.val());
-        dbRef4.on('value', snap => bigOne4.innerText = snap.val());
-        dbRef5.on('value', snap => bigOne5.innerText = snap.val());
-        dbRef6.on('value', snap => bigOne6.innerText = snap.val());
-        dbRef7.on('value', snap => bigOne7.innerText = snap.val());
-        dbRef8.on('value', snap => bigOne8.innerText = snap.val());
 
         dbRef1.on('value', snap => pictures[0] = snap.val());
         dbRef2.on('value', snap => pictures[1] = snap.val());
