@@ -35,7 +35,7 @@ const pictures = [
 ];
 
 
-function shuffle(array, direction, in crement) {
+function shuffle(array, direction, increment) {
     if (direction == "forward") {
         j = j + increment
     } else if (direction == "backward") {
