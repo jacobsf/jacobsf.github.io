@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript120c");
+alert("Injected Best Included Javascript120d");
 
 
 alert("Waiting for page to finish loading.");
@@ -51,7 +51,7 @@ function shuffle(array, direction, increment) {
     if (j < 0) {
         j = 7
     }
-    // alert("j is " + j);
+    alert("j is " + j);
     return array[j];
 }
 
