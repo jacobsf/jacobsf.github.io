@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript110e");
+alert("Injected Best Included Javascript110f");
 
 
 alert("Waiting for page to finish loading.");
@@ -9,6 +9,11 @@ window.onload = function () {
 
 var j = 0;
 
+// Callback function pass an array
+function changeImg(array, direction, increment) {
+    var url = shuffle(array, direction, increment);
+    $('.imageWrapper img')[0].src = url;
+}
 
 function whenLoaded() {
 
@@ -85,11 +90,7 @@ function whenLoaded() {
         dbRef8.on('value', snap => pictures[7] = snap.val());
 
 
-        // Callback function pass an array
-        function changeImg(array, direction, increment) {
-            var url = shuffle(array, direction, increment);
-            $('.imageWrapper img')[0].src = url;
-        }
+
 
 
         function shuffle(array, direction, increment) {
