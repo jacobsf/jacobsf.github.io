@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript120d");
+alert("Injected Best Included Javascript120e");
 
 
 alert("Waiting for page to finish loading.");
@@ -12,6 +12,7 @@ var j = 0;
 // Callback function pass an array
 function changeImg(array, direction, increment) {
     var url = shuffle(array, direction, increment);
+    alert("url is " + url);
     $('.imageWrapper img')[0].src = url;
 }
 
@@ -74,9 +75,6 @@ function whenLoaded() {
     var dbRef7 = firebase.database().ref().child('live7');
     var dbRef8 = firebase.database().ref().child('live8');
 
-    // put the initial image into the placeholder
-    changeImg(pictures, "refresh", 0);
-
 
 // ============================================================
 // Code that Fred found on StackExchange for changing images.
@@ -95,8 +93,8 @@ function whenLoaded() {
         dbRef7.on('value', snap => pictures[6] = snap.val());
         dbRef8.on('value', snap => pictures[7] = snap.val());
 
-
-
+        // put the initial image into the placeholder
+        changeImg(pictures, "refresh", 0);
 
         // Added for demo purposes
         $('button').on('click', function () {
