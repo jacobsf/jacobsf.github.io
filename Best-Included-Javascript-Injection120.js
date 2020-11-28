@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript120f");
+alert("Injected Best Included Javascript120g");
 
 
 alert("Waiting for page to finish loading.");
@@ -95,8 +95,7 @@ function whenLoaded() {
         dbRef7.on('value', snap => pictures[6] = snap.val());
         dbRef8.on('value', snap => pictures[7] = snap.val());
 
-        // put the initial image into the placeholder
-        changeImg(pictures, "refresh", 0);
+
 
 
         // Added for demo purposes
@@ -105,6 +104,10 @@ function whenLoaded() {
                 changeImg(pictures, "forward", 1);
             }, 3000);
         });
+
+        // put the initial image into the placeholder
+        changeImg(pictures, "refresh", 0);
+
 
     });
 
