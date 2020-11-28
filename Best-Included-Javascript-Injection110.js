@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript110c");
+alert("Injected Best Included Javascript110e");
 
 
 alert("Waiting for page to finish loading.");
@@ -11,6 +11,25 @@ var j = 0;
 
 
 function whenLoaded() {
+
+    const pictures = [
+        //1
+        "place_holder",
+        //2
+        "place_holder",
+        //3
+        "place_holder",
+        //4
+        "place_holder",
+        //5
+        "place_holder",
+        //6
+        "place_holder",
+        //7
+        "place_holder",
+        //8
+        "place_holder"
+    ];
 
 //    alert("The window is loaded. Now doing a simple text substitution.");
 //    document.getElementById("bigOne").innerHTML = "The window is loaded.";
