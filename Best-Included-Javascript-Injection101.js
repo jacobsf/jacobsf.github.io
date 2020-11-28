@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript101c");
+alert("Injected Best Included Javascript101e");
 
 
 alert("Waiting for page to finish loading.");
@@ -81,30 +81,35 @@ function whenLoaded() {
         dbRef8.on('value', snap => pictures[7] = snap.val());
 
 
+        var j = 0;
+
         // Callback function pass an array
-        function changeImg(array) {
-            var url = shuffle(array);
+        function changeImg(array, direction) {
+            var url = shuffle(array, direction);
             $('.imageWrapper img')[0].src = url;
         }
 
-        var j = 0;
 
-
-
-
-        function shuffle(array) {
-            j = j + 1
+        function shuffle(array, direction) {
+            if (direction == "forward") {
+                j = j + 1
+            } else {
+                j = j - 1
+            }
             if (j > 7) {
                 j = 0
             }
+            if (j < 0) {
+                j = 7
+            }
+            alert("j is " + j);
             return array[j];
         }
 
         // Added for demo purposes
         $('button').on('click', function () {
-            changeImg(pictures);
             setInterval(function () {
-                changeImg(pictures);
+                changeImg(pictures, "forward");
             }, 3000);
         });
 
