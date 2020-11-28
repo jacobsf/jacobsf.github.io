@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript120e");
+alert("Injected Best Included Javascript120f");
 
 
 alert("Waiting for page to finish loading.");
@@ -8,6 +8,8 @@ window.onload = function () {
 };
 
 var j = 0;
+
+
 
 // Callback function pass an array
 function changeImg(array, direction, increment) {
@@ -96,6 +98,7 @@ function whenLoaded() {
         // put the initial image into the placeholder
         changeImg(pictures, "refresh", 0);
 
+
         // Added for demo purposes
         $('button').on('click', function () {
             setInterval(function () {
@@ -107,7 +110,6 @@ function whenLoaded() {
 
 
 }
-
 
 // ============================================================
 // Firebase configuration
