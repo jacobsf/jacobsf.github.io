@@ -1,9 +1,9 @@
-alert("Injected Best Included Javascript101");
+alert("Injected Best Included Javascript101a");
 
 
 alert("Waiting for page to finish loading.");
 window.onload = function () {
-   alert("The window is loaded. Now calling myFunction.");
+    alert("The window is loaded. Now calling myFunction.");
     whenLoaded();
 };
 
@@ -81,7 +81,6 @@ function whenLoaded() {
         dbRef8.on('value', snap => pictures[7] = snap.val());
 
 
-
         // Callback function pass an array
         function changeImg(array) {
             var url = shuffle(array);
@@ -90,6 +89,16 @@ function whenLoaded() {
 
         var j = 0;
 
+
+        function decrement() {
+            alert("Click.");
+            j = j - 1
+            if (j < 0) {
+                j = 7
+            }
+            url = pictures[j];
+            $('.imageWrapper img')[0].src = url;
+        }
 
         function shuffle(array) {
             j = j + 1
@@ -110,8 +119,6 @@ function whenLoaded() {
     });
 
 
-
-
 }
 
 
@@ -127,11 +134,6 @@ var firebaseConfig = {
     appId: "1:55052545917:web:22dd3624bbed0b2cffe614",
     measurementId: "G-QW9SSLTXSP"
 };
-
-
-
-
-
 
 
 // ============================================================
