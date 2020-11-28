@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript110b");
+alert("Injected Best Included Javascript110c");
 
 
 alert("Waiting for page to finish loading.");
@@ -45,24 +45,6 @@ function whenLoaded() {
 
 // noinspection JSUnresolvedFunction
     $(function () {
-        const pictures = [
-            //1
-            "place_holder",
-            //2
-            "place_holder",
-            //3
-            "place_holder",
-            //4
-            "place_holder",
-            //5
-            "place_holder",
-            //6
-            "place_holder",
-            //7
-            "place_holder",
-            //8
-            "place_holder"
-        ];
 
         // writing the data to the web page
         dbRef1.on('value', snap => bigOne1.innerText = snap.val());
