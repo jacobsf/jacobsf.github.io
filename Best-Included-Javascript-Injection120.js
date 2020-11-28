@@ -35,12 +35,16 @@ const pictures = [
 ];
 
 
-function shuffle(array, direction, increment) {
+function shuffle(array, direction, in crement) {
     if (direction == "forward") {
         j = j + increment
-    } else {
+    } else if (direction == "backward") {
         j = j - increment
+    } else if (direction == "refresh") {
+        // do nothing to the count
     }
+
+    // wraparound
     if (j > 7) {
         j = 0
     }
@@ -53,8 +57,6 @@ function shuffle(array, direction, increment) {
 
 function whenLoaded() {
 
-
-
 //    alert("The window is loaded. Now doing a simple text substitution.");
 //    document.getElementById("bigOne").innerHTML = "The window is loaded.";
 
@@ -62,7 +64,6 @@ function whenLoaded() {
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
-
 
     var dbRef1 = firebase.database().ref().child('live1');
     var dbRef2 = firebase.database().ref().child('live2');
@@ -72,6 +73,9 @@ function whenLoaded() {
     var dbRef6 = firebase.database().ref().child('live6');
     var dbRef7 = firebase.database().ref().child('live7');
     var dbRef8 = firebase.database().ref().child('live8');
+
+    // put the initial image into the placeholder
+    changeImg(pictures, "refresh", 0);
 
 
 // ============================================================
