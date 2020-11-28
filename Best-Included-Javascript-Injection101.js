@@ -1,4 +1,4 @@
-alert("Injected Best Included Javascript101a");
+alert("Injected Best Included Javascript101b");
 
 
 alert("Waiting for page to finish loading.");
@@ -90,15 +90,7 @@ function whenLoaded() {
         var j = 0;
 
 
-        function decrement() {
-            alert("Click.");
-            j = j - 1
-            if (j < 0) {
-                j = 7
-            }
-            url = pictures[j];
-            $('.imageWrapper img')[0].src = url;
-        }
+
 
         function shuffle(array) {
             j = j + 1
