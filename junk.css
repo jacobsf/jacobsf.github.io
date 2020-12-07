@@ -1,0 +1,150 @@
+$size : 18px;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Flama', 'Lato', sans-serif;
+    color: #49006a;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 16px;
+}
+
+nav {
+    margin-top: 48px;
+}
+
+button {
+    padding: $size;
+    text-transform: uppercase;
+}
+
+.calendar {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: $size;
+}
+
+[data-year] {
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+[data-year] .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: $size * 2;
+}
+
+[data-year] .content {
+    display: inline-flex;
+    flex-direction: row;
+    flex-grow: 0;
+}
+
+[data-month] {
+    display: inline-flex;
+    flex-direction: column;
+    margin: $size $size $size 0;
+    transition: margin .8s cubic-bezier( 0.680, -0.550, 0.265, 1.550 ); /* easeInOutBack */
+}
+
+[data-month] .header {
+    margin: 0 0 $size;
+    opacity: .66;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+[data-month] .content {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: $size * 7;
+    transition: transform .2s ease-in-out;
+}
+
+[data-month]:first-child .content::before {
+    content: 'D S T Q Q S S';
+    position: absolute;
+    left: -( $size / 2 );
+// text-align: right;
+    line-height: 1.333;
+    width: 1px;
+    font-size: 9.5px;
+    opacity: .66;
+}
+
+/*
+[data-month] .content:hover {
+  transform: scale( 1.25 )
+}
+*/
+
+.grouped [data-month],
+.seamless [data-month] {
+    margin: $size ( - $size ) $size 0;
+}
+
+.seamless [data-day] {
+    border-color: transparent;
+}
+
+.header {
+    max-height: $size * 3;
+    transition: max-height .4s ease-in-out, margin .4s ease-in-out, opacity .4s ease-in-out;
+}
+
+.no-labels {
+.header {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0;
+}
+}
+
+[data-day] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $size;
+    height: $size;
+    background: #ccc;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    flex-shrink: 0;
+// opacity: 0;
+    font-size: 6px;
+    color: transparent;
+    transition: border .8s ease-in-out, opacity .2s;
+    user-select: none;
+}
+
+// [data-day]:hover {
+   //   transform: scale( 2 );
+   //   border-color: transparent;
+   //   transition: none;
+   // }
+
+[data-day].visible {
+    opacity: 1;
+}
+
+[data-day="placeholder"] {
+    visibility: hidden;
+}
