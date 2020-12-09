@@ -1,10 +1,11 @@
 
 
+var today = moment();
 
 
     !function () {
 
-    var today = moment();
+        alert ("calendar 2");
 
     function Calendar(selector, events) {
     this.el = document.querySelector(selector);
