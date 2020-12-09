@@ -4,7 +4,7 @@
 
     var today = moment();
 
-    alert("calendar 2a");
+    alert("calendar 3");
 
     function Calendar(selector, events) {
         this.el = document.querySelector(selector);
@@ -392,7 +392,7 @@
 
 !function () {
     var data = [
-        {eventName: 'Lunch Meeting w/ Mark', calendar: 'Work', color: 'orange', eventTime: moment()},
+        {eventName: 'Lunch Meeting w/ Simone', calendar: 'Work', color: 'orange', eventTime: moment()},
         {
             eventName: 'Interview - Jr. Web Developer',
             calendar: 'Work',
