@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5984e1d-0d1a-40f1-aa7a-f3c3878c4273" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/calendar1.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar1.js" beforeDir="false" afterPath="$PROJECT_DIR$/calendar1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +108,7 @@
       <workItem from="1606898917448" duration="946000" />
       <workItem from="1606946148901" duration="378000" />
       <workItem from="1607345447242" duration="3113000" />
-      <workItem from="1607513451030" duration="238000" />
-    </task>
-    <task id="LOCAL-00171" summary="test">
-      <created>1606434629283</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1606434629283</updated>
+      <workItem from="1607513451030" duration="358000" />
     </task>
     <task id="LOCAL-00172" summary="test">
       <created>1606435030231</created>
@@ -453,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607513531034</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="test">
+      <created>1607513699268</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1607513699268</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

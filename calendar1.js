@@ -1,5 +1,7 @@
 !function () {
 
+    alert("Calendar");
+
     var today = moment();
 
     function Calendar(selector, events) {
